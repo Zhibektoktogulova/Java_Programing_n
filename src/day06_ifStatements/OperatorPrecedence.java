@@ -20,6 +20,13 @@ public class OperatorPrecedence {
         //                   true ==   false        ||                  false
 
 
+        int a = 20;
+
+        a += 10 + 2 * 3;
+        // a += 10 +6
+        // a += 16
+        // a += 36
+
 
 
 
