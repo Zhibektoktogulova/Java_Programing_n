@@ -24,7 +24,22 @@ public class IfStatementsIntro {
 
              System.out.println(number + " is zero");
          }
+        System.out.println("-------------------------------");
 
+         int num = 100;
+
+         if(num > 0){
+             System.out.println(num + " is positive");
+
+         }
+
+         if(num <0){
+             System.out.println(num + " is negative ");
+
+         }
+          if(num == 0){
+              System.out.println(num + " is zero");
+          }
 
 
 
