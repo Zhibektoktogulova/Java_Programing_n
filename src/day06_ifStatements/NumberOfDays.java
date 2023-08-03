@@ -6,7 +6,7 @@ public class NumberOfDays {
 
         int number = 1;
 
-        boolean has28Days = number == 2;
+        boolean has28Days = number == 2; // if the months is 2  then it has 28 days
         boolean has30Days = number == 4 || number == 6 || number == 9 || number == 11;
         boolean has31Days = !has28Days && !has30Days;
         // If the month does not have 28 days, and also does not have 30 days then the month has 31 days
