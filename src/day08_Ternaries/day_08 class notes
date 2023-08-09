@@ -1,0 +1,5 @@
+Switch statement faster than if statement
+Switch(expression){
+case constant1:   case'A': or case 1:
+statement;        //System.out.println
+break
